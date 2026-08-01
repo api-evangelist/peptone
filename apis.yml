@@ -1,8 +1,26 @@
 aid: peptone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peptone.png
 name: Peptone
-description: 'Peptone is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Peptone is a computational drug-discovery biotech building a Product Engine
+  that targets intrinsically disordered proteins (IDPs). It couples experimental measurement
+  of disordered proteins in solution with enhanced-sampling simulation and generative
+  machine-learning models to resolve transient, druggable pockets and design small-molecule
+  drug candidates against them. Peptone describes its stack as an end-to-end Protein
+  Engineering Operating System (PeOS); its open-source research tooling (protein-disorder
+  prediction, ensemble generators, protein language models) is published on GitHub.
+  Peptone is a Bessemer Venture Partners portfolio company. No public developer API,
+  documentation, or SDK surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/peptone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Biotech
+- Drug Discovery
+- Proteins
+- Machine Learning
+- Protein Engineering
+- Intrinsically Disordered Proteins
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/peptone-domain-security.yml
 - type: Website
   url: https://peptone.io/
+- type: GitHubOrganization
+  url: https://github.com/PeptoneLtd
+- type: Blog
+  url: https://peptone.io/blog
+- type: Support
+  url: https://peptone.io/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
