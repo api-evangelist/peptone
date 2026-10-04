@@ -44,10 +44,10 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Drug Discovery
 - Proteins
-- Machine-Learning
+- Machine Learning
 - Protein Engineering
 - Intrinsically Disordered Proteins
 tags_raw:
@@ -58,6 +58,7 @@ tags_raw:
 - Machine Learning
 - Protein Engineering
 - Intrinsically Disordered Proteins
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
